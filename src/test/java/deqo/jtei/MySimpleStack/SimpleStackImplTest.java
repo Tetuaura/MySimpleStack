@@ -76,7 +76,7 @@ public class SimpleStackImplTest {
         simpleStack.push(ita);
         // la pile doit être augmenter de un item
         Assert.assertEquals(1, simpleStack.getSize());
-        Item o = simpleStack.peek();
+        Item o = simpleStack.pop();
         // On doit retirer l'objet de la pile
         Assert.assertEquals(0, simpleStack.getSize());
         // On doit retrouver l'objet initial

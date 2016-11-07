@@ -10,21 +10,23 @@ public class Item {
     private Object value;
 
     /**
-     * @param value
+     * @param value The value of this object
      */
-    Item(final Object value) {
-        this.value = value;
+    Item(Object value) {
+        setValue(value);
     }
 
     /**
-     * Un commentaire répondant à l'exigence #1
-     * @return
+     * @return value to get in stack
      */
     public Object getValue() {
         return value;
     }
 
-    public void setValue(Object value){
+    /**
+     * @param value The value of this object
+     */
+    public void setValue(Object value) {
         this.value = value;
     }
 }

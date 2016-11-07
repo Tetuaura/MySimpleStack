@@ -6,7 +6,11 @@ import java.util.Stack;
 /**
  * Created by Jakline on 07/11/2016.
  */
-public class SimpleStackImpl implements SimpleStack{
+public class SimpleStackImpl implements SimpleStack {
+
+    /**
+     * @see Stack
+     */
     Stack<Object> wrappedStack = new Stack<Object>();
 
     @Override
